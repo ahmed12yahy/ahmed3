@@ -1,0 +1,106 @@
+html{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: aliceblue;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+.navbar ul {
+  float: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: .2s ease-in-out;
+}
+
+nav ul li a:hover{
+  text-decoration: underline;
+}
+
+section {
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+h2 {
+  color: #000000;
+  font-size: 50PX;
+}
+
+img {
+  max-width: 350px;
+  border-radius: 10px;
+  height: auto;
+  display: block;
+  margin: 0 auto 20px; 
+  transition: .3s ease-in-out;
+  margin-top: 25px;
+  margin-bottom: 75px;
+  box-shadow: 2px 1px 15px #4444448c;
+}
+
+img:hover{
+  max-width: 400px;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.intro{
+  display: flex;
+  flex-direction: row;
+}
+
+#introduction p, #types p{
+  font-size: 20px;
+}
+
+#introduction p, #types p{
+  margin-top: 150px;
+  margin-left: 50px;
+  width: 700px;
+}
+
+#introduction, #types{
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+
+
+hr{
+  margin-top: 0;
+  margin-bottom: 50px;
+  width: 20%;
+  
+}
+
+.type-1, .type-2, .type-3, .type-4{
+  display: flex;
+  flex-direction: row;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #4a4a4a;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4a4a4a;
+}
